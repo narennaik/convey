@@ -1,0 +1,45 @@
+# Build outputs
+build/
+dmg_source/
+target/
+gen/
+*.dmg
+*.app
+
+# Generated icon files (keep source SVG only)
+assets/icon*.png
+assets/Convey.iconset
+assets/Convey.icns
+icons/
+
+# Rust
+Cargo.lock
+**/*.rs.bk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.sublime-*
+
+# Logs
+*.log
+
+# Database (user data - should be backed up separately)
+*.db
+*.db-shm
+*.db-wal
+
+# Large model files (download separately)
+resources/models/*.bin
