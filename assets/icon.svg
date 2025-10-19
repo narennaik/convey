@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Solarized gradient background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#268bd2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2aa198;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="226" fill="url(#bg)"/>
+
+  <g transform="translate(512, 650)">
+    <!-- Microphone capsule -->
+    <rect x="-120" y="-400" width="240" height="320" rx="120" fill="#fdf6e3"/>
+
+    <!-- Microphone stand -->
+    <path d="M -80 -70 L -80 40 L 80 40 L 80 -70" fill="#fdf6e3"/>
+
+    <!-- Center stem -->
+    <rect x="-20" y="40" width="40" height="120" fill="#fdf6e3"/>
+
+    <!-- Base -->
+    <rect x="-100" y="160" width="200" height="30" rx="15" fill="#fdf6e3"/>
+  </g>
+</svg>
